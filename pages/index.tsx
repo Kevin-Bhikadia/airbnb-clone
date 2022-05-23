@@ -16,7 +16,7 @@ const Home: NextPage<PropType> = ({ exploreData, cardsData }) => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Header />
+      <Header placeholder={''} />
       <Banner />
 
       <main className="mx-auto max-w-7xl px-8 sm:px-16">

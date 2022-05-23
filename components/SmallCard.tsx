@@ -2,15 +2,7 @@ import React from 'react'
 import getStaticProps from '../pages/index'
 import Image from 'next/image'
 
-// interface DataType {
-//   img: string
-//   distance: string
-//   location: string
-// }
 
-// interface PropType {
-//   exploreData: DataType[]
-// }
 
 function SmallCard({ img, distance, location }) {
   return (
